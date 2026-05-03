@@ -1,0 +1,27 @@
+{
+  "entities": {
+    "DiaryEntry": {
+      "title": "Diary Entry",
+      "description": "A single diary entry with thumbnail, content, video.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "thumbnailUrl": { "type": "string" },
+        "videoUrl": { "type": "string" },
+        "tag": { "type": "string" },
+        "day": { "type": "string" },
+        "authorId": { "type": "string" },
+        "createdAt": { "type": "number", "description": "Timestamp" },
+        "updatedAt": { "type": "number", "description": "Timestamp" }
+      },
+      "required": ["title", "content", "authorId", "createdAt", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/diaries/{diaryId}": {
+      "schema": { "$ref": "DiaryEntry" },
+      "description": "Stores user-published diary entries"
+    }
+  }
+}
