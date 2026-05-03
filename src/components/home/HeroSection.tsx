@@ -12,7 +12,7 @@ export function HeroSection() {
         </div>
         
         <p className="font-be text-lg md:text-xl max-w-md mt-4 font-medium">
-          không phải là đi cho vui, mà là nơi bọn mình có thể trải nghiệm thật và cùng các cô chú hoc làm thương hiệu, tạo kênh bán hàng để tạo ra kết quả thật.
+         DOERS không phải là đi cho vui, mà là nơi bọn mình có thể trải nghiệm thật và cùng các cô chú hoc làm thương hiệu, tạo kênh bán hàng để tạo ra kết quả thật.
         </p>
         
         <div className="flex flex-wrap gap-6 mt-8">
