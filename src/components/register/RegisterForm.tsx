@@ -74,7 +74,7 @@ export function RegisterForm({ activePath, pathLabel }: RegisterFormProps) {
           <textarea 
             rows={3} 
             placeholder={
-              activePath === 'doers' ? "BẠN ĐANG XÂY DỰNG GÌ? BẠN ĐANG GIẢI QUYẾT VẤN ĐỀ NÀO?" :
+              activePath === 'doers' ? "HÃY GIỚI THIỆU NGẮN GỌN VỀ BẢN THÂN BẠN?" :
               activePath === 'business' ? "DOANH NGHIỆP HOẶC SẢN PHẨM CỦA BẠN LÀ GÌ?" :
               "NHỮNG LĨNH VỰC CHUYÊN MÔN VÀ KỸ NĂNG BẠN SẼ MANG LẠI CHO CỘNG ĐỒNG LÀ GÌ?"
             }
