@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import heroImage from '@/src/assets/images/regenerated_image_1777806687192.jpg';
+const heroImage = "https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/473133361_122137274054553991_1340639892326954464_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=13d280&_nc_ohc=I1YFFozz9zkQ7kNvwFkXSSr&_nc_oc=Adq9OwSLcsLl8WvmD97AInXrBUe0QNIOI-vdLKtq-DQQtJggoprsClAdUFJD4kx2t-oN1061nGLCk3YvCyg4Wv13&_nc_zt=23&_nc_ht=scontent.fhan2-4.fna&_nc_gid=RpXVKbaDnFqhz8ERaSCDTg&_nc_ss=7b2a8&oh=00_Af70ARC1T-ovj2NhrrIoeFFLR7o6F0MFAzk-RiWw3-VAmA&oe=69FD19BC";
 
 export function HeroSection() {
   return (

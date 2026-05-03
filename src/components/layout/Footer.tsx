@@ -7,7 +7,7 @@ export function Footer() {
         <div className="text-2xl font-black text-black">DOERS</div>
         
         <div className="text-sm font-bold uppercase w-48 text-center md:text-left">
-          DỰ ÁN MIỄN PHÍ & TỰ NGUYỆN. DOANH THU BÁN HÀNG ĐƯỢC CHUYỂN TRỰC TIẾP CHO BUSINESS OWNER.
+          DỰ ÁN MIỄN PHÍ & TỰ NGUYỆN.
         </div>
 
         <div className="text-black font-space font-bold uppercase text-center md:text-right">

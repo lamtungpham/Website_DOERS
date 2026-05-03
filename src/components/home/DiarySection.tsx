@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import { PlayCircle } from 'lucide-react';
 import { motion } from 'motion/react';
-import day1Image from '@/src/assets/images/regenerated_image_1777806689389.jpg';
-import dataReviewImage from '@/src/assets/images/regenerated_image_1777806691268.jpg';
-import thucChienSaleImage from '@/src/assets/images/regenerated_image_1777806692873.jpg';
+const day1Image = "https://scontent.fhan2-5.fna.fbcdn.net/v/t51.82787-15/598696524_17869402215492032_196568958758583279_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=R-TNyvGjTuAQ7kNvwHY-CJ4&_nc_oc=AdqMc89eRaUE6qE-bShtoX89PawR1P83k5BLmdNx5Jc4MsqbsioMVAi3b6fwUF5bXSRwEoLU3M3tpQiQsPk6IdaY&_nc_zt=23&_nc_ht=scontent.fhan2-5.fna&_nc_gid=T9AQ1Qa_xH_N0NtyFwerNA&_nc_ss=7b2a8&oh=00_Af5Y7nqB_rF6-CyodyxVnZfH6_CjXQP3PWp1XBjlBsfmPg&oe=69FD0E27";
+const dataReviewImage = "https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/474897015_122141191604553991_907753041860819748_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7b2446&_nc_ohc=yJOK1PKn728Q7kNvwHlJAeZ&_nc_oc=AdqB09T8wqF_hGApKB2HdMi4vyqkmPo0sPUSLoSgFSmOPUs365cgDM9nvezBPQkC_WOCG_JBjyTBhgeTDA8ZYYxE&_nc_zt=23&_nc_ht=scontent.fhan2-4.fna&_nc_gid=xqc8_6yb2HWzQ_IAXDCdcQ&_nc_ss=7b2a8&oh=00_Af4daaH0ZiOPJzxtwSnsyCYQEvZQKDVx4QPL51bngJfeqw&oe=69FD15F2";
+const thucChienSaleImage = "https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/473321233_122137274840553991_8588906438658723514_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_ohc=9Wt9EBbfb90Q7kNvwEbXpmn&_nc_oc=AdqgGyOT1qeysu_EZs9fHaYt_vvxoMaLtZgywXuSP6Z8eRvvjQ_LJrXQre5S2YOH-gZrmtDP95GfGRr5Lw8RaMNq&_nc_zt=23&_nc_ht=scontent.fhan2-4.fna&_nc_gid=HHcf9wpExKC865wY-yGLnQ&_nc_ss=7b2a8&oh=00_Af6seM9hPE0L6s9DP3QoXHbi84JDgdN_vkOu-kj4po9Sdg&oe=69FD1D74";
 
 export function DiarySection() {
   return (
@@ -52,7 +52,7 @@ export function DiarySection() {
             <img src={day1Image} alt="Day 1" className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500 min-h-[400px]" />
             <div className="absolute inset-0 bg-primary-container mix-blend-color opacity-30"></div>
             <div className="absolute bottom-0 w-full p-6 flex justify-between items-end bg-gradient-to-t from-black/80 to-transparent">
-              <h3 className="font-bold text-white text-2xl uppercase">DAY 1: KHỞI ĐỘNG</h3>
+              <h3 className="font-bold text-white text-2xl uppercase">CHIA SẺ & HƯỚNG DẪN</h3>
               <PlayCircle className="text-white w-10 h-10 group-hover:text-secondary-container transition-colors" />
             </div>
           </motion.div>
@@ -63,7 +63,7 @@ export function DiarySection() {
             <img src={dataReviewImage} alt="Data Review" className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" />
             <div className="absolute inset-0 bg-secondary-container mix-blend-color opacity-30"></div>
             <div className="absolute bottom-0 w-full p-4 flex justify-between items-end bg-gradient-to-t from-black/80 to-transparent">
-              <h3 className="font-bold text-white text-lg uppercase">DATA REVIEW</h3>
+              <h3 className="font-bold text-white text-lg uppercase">DỰ ÁN THẬT</h3>
               <PlayCircle className="text-white w-6 h-6 group-hover:text-primary-container transition-colors" />
             </div>
           </motion.div>
@@ -75,9 +75,9 @@ export function DiarySection() {
           <motion.div 
             className="md:col-span-2 border-4 border-black relative group cursor-pointer overflow-hidden shadow-neo bg-black transition-all border-b-8 h-[250px]"
           >
-            <img src={thucChienSaleImage} alt="Thực chiến sale" className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-500" />
+            <img src={thucChienSaleImage} alt="Làm thực chiến tại doanh nghiệp" className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-500" />
             <div className="absolute bottom-0 w-full p-6 flex justify-between items-end bg-gradient-to-t from-black/80 to-transparent">
-              <h3 className="font-bold text-white text-2xl uppercase">THỰC CHIẾN SALE</h3>
+              <h3 className="font-bold text-white text-2xl uppercase">DOANH NGHIỆP THẬT</h3>
               <PlayCircle className="text-white w-10 h-10 group-hover:text-secondary-container transition-colors" />
             </div>
           </motion.div>

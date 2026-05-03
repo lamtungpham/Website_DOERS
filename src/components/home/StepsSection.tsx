@@ -30,20 +30,20 @@ export function StepsSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-4">
           <StepCard 
             phase="GIAI ĐOẠN 1"
-            title="ONLINE - AI MARKETING"
+            title="ONLINE - HỌC TẬP"
             desc="Xây dựng nền tảng, nắm bắt công cụ AI để bứt phá hiệu suất."
             icon="laptop_mac"
           />
           <StepCard 
             phase="GIAI ĐOẠN 2"
-            title="OFFLINE - THỰC CHIẾN"
+            title="OFFLINE - TRẢI NGHIỆM"
             desc="Lao vào thực tế, cọ xát thị trường, đúc rút kinh nghiệm xương máu."
             icon="handshake"
             bg="bg-secondary-container"
           />
           <StepCard 
             phase="GIAI ĐOẠN 3"
-            title="ONLINE - CHỐT SALE"
+            title="ONLINE - TRIỂN KHAI"
             desc="Thực thi chiến lược, tối ưu hóa quy trình và tạo ra doanh thu thật."
             icon="trending_up"
           />
